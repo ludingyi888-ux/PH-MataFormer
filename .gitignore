@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.so
+
+# 模型权重与训练数据（体积大，不入库）
+*.pt
+*.pth
+*.ckpt
+*.dat
+*.npy
+*.npz
+*.hdf
+*.HDF
+*.nc
+checkpoints/
+checkpoints*/
+ablation_checkpoints/
+logs/
+
+# 其他
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
